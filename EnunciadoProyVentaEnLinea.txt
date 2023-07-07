@@ -1,0 +1,13 @@
+Se realiza el Diagrama de Entidad Relación y posteriormente la base de datos
+de una Tienda que vende diferentes productos por internet y los envía a domicilio. Los
+productos están divididos en categorías, tales como indumentaria, electrónica, hogar,
+juguetes y electrodomésticos. Cada pedido puede incluir uno o varios productos.
+El envío no tiene costo, pero se realiza sólo dentro de Capital Federal. Cada cliente
+debe elegir un método de pago, tarjeta de crédito o débito, y registrar una dirección
+para recibir sus pedidos. Cada vez que se registra un nuevo cliente se le consulta
+cómo conoció la tienda y se le dan opciones como Facebook o Instagram.
+
+Los pedidos tienen varios estados, tales como en preparación, en envío, entregado,
+cancelado y entrega fallida. El envío puede ser en flete, miniflete o moto. Por el
+momento solo se le vende a consumidores finales, por lo que solo se entrega Factura
+B. El cliente obtendrá una factura por cada pedido.
